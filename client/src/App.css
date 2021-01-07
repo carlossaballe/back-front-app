@@ -1,0 +1,31 @@
+.container{
+  border-top: rgb(102, 222, 214) 2vh solid;
+  display: flex;
+  flex-direction: row;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 80vh;
+  padding: 8vh 5vh 10vh 5vh;
+}
+
+.side img {
+  width: 20vw;
+  height: 20vh;
+  cursor: pointer;
+}
+
+
+.main-img{
+  padding: 8vh 5vh 10vh 5vh;
+}
+
+.main-img img{
+  width: 70vw;
+  height: 60vh;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
